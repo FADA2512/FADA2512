@@ -1,14 +1,14 @@
 h1 {
    text-align:center;
-   color:white;
+   color:pink;
    font-weight:bold;
    font-family:calibri;
    }
-P {
+p {
    font-size:11px;
    font-family:Times New Roman;
 }
    
 body {
-   background-color:blue !important;
+   background-color: #ADD8E6 !important;
      }
