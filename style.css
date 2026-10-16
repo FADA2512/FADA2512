@@ -1,9 +1,20 @@
 h1 {
    text-align:center;
-   color: Maroon Red !important;
+   color: Maroon !important;
    font-weight:bold;
    font-family:calibri;
    }
 body {
-   background-color: Cream !important;
+   background-color: #FFFDD0 !important;
      }
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 4px 12px; /* Memberikan jarak antar menu */
+    font-family: Calibri, sans-serif;
+}
