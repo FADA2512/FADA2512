@@ -1,13 +1,14 @@
+/* Import Font modern Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
-{
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    background-color: #F7F3E9; 
+    background-color: #F7F3E9;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    color: #4A3B32; 
+    color: #4A3B32;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,8 +23,8 @@ header {
     text-align: center;
 }
 h1 {
-    font-family: 'Cinzel', serif; 
-    font-size: 2.2rem;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
     color: #C06037;
     letter-spacing: 2px;
     margin-bottom: 15px;
@@ -35,49 +36,55 @@ ul {
     justify-content: center;
     gap: 20px;
 }
-li {
-    position: relative;
-}
 li a {
     text-decoration: none;
     color: #436965;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding: 8px 18px;
     border-radius: 20px;
     transition: all 0.3s ease;
 }
 li a:hover {
-    background-color: #C06037; 
-    color: #FFFFFF; 
+    background-color: #C06037;
+    color: #FFFFFF;
     box-shadow: 0 4px 8px rgba(192, 96, 55, 0.3);
 }
 .container {
     width: 90%;
-    max-width: 800px;
-    margin: 40px auto;
+    max-width: 750px;
+    margin: 35px auto 50px auto;
     text-align: center;
     background: #FFFFFF;
-    padding: 30px;
+    padding: 40px 30px;
     border-radius: 16px;
     border: 1px solid #E5DCB8;
     box-shadow: 0 8px 24px rgba(74, 59, 50, 0.06);
 }
 .container h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.6rem;
     color: #C06037;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .container p {
-    line-height: 1.6;
+    font-size: 0.92rem;      
+    line-height: 1.7;         
     color: #5A4A3E;
+    max-width: 650px;         
+    margin: 0 auto;            
+    text-align: justify;      
+    text-justify: inter-word;
 }
 .logo-konten {
-    width: 180px;       
-    height: 180px;       
-    object-fit: cover;    
+    width: 210px;             
+    height: 210px;            
+    object-fit: cover;
     display: block;
-    margin: 25px auto 10px auto; 
-    border-radius: 50%;   
-    box-shadow: 0 4px 15px rgba(74, 59, 50, 0.15);
+    margin: 0 auto 25px auto;  
+    border-radius: 50%;       
+    box-shadow: 0 6px 18px rgba(74, 59, 50, 0.15); 
     border: 3px solid #C49A50; 
 }
+
+   
