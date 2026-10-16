@@ -72,12 +72,12 @@ li a:hover {
     color: #5A4A3E;
 }
 .logo-konten {
-    width: 180px;         /* Mengatur lebar logo agar ideal (tidak terlalu besar/kecil) */
-    height: 180px;        /* Membuat tinggi sama dengan lebar agar rasionya sempurna */
-    object-fit: cover;    /* Memastikan gambar tidak gepeng/terdistorsi */
+    width: 180px;       
+    height: 180px;       
+    object-fit: cover;    
     display: block;
-    margin: 25px auto 10px auto; /* Posisi otomatis di tengah */
-    border-radius: 50%;   /* Membuat foto/gambar menjadi bentuk lingkaran penuh */
-    box-shadow: 0 4px 15px rgba(74, 59, 50, 0.15); /* Memberikan efek bayangan lembut di pinggir lingkaran */
-    border: 3px solid #C49A50; /* Memberikan garis tepi warna emas/kayu agar senada dengan logo */
+    margin: 25px auto 10px auto; 
+    border-radius: 50%;   
+    box-shadow: 0 4px 15px rgba(74, 59, 50, 0.15);
+    border: 3px solid #C49A50; 
 }
